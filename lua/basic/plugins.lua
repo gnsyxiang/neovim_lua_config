@@ -8,6 +8,9 @@ packer.startup(
         function()
             -- 包管理器
             use {"wbthomason/packer.nvim"}
+
+	    -- 中文文档
+            use {"yianwillis/vimcdoc"}
             -- 安装其它插件
         end,
 
