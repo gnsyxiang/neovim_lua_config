@@ -23,6 +23,14 @@ packer.startup(
 	        require("conf.nvim-tree")
 	    end
 	}
+
+	use {
+            "beauwilliams/focus.nvim",
+	    config = function()
+	        require("conf.focus")
+	    end
+	}
+
             -- 安装其它插件
         end,
 
