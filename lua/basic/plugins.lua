@@ -77,6 +77,14 @@ use {
     end
 }
 
+-- 显示缩进线
+use {
+    "lukas-reineke/indent-blankline.nvim",
+    config = function()
+        require("conf.indent-blankline")
+    end
+}
+
             -- 安装其它插件
         end,
 
