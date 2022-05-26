@@ -200,6 +200,19 @@ use {
         require("conf.which-key")
     end
 }
+
+-- 模糊查找
+use {
+    "nvim-telescope/telescope.nvim",
+    requires = {
+        "nvim-lua/plenary.nvim", -- Lua 开发模块
+        "BurntSushi/ripgrep", -- 文字查找
+        "sharkdp/fd" -- 文件查找
+    },
+    config = function()
+        require("conf.telescope")
+    end
+}
             -- 安装其它插件
         end,
 
