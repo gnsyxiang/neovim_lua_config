@@ -5,7 +5,7 @@ require("focus").setup(
 }
 )
 
-vim.api.nvim_set_keymap('n', '<leader>h', ':FocusSplitLeft<CR>', { silent = true })
-vim.api.nvim_set_keymap('n', '<leader>j', ':FocusSplitDown<CR>', { silent = true })
-vim.api.nvim_set_keymap('n', '<leader>k', ':FocusSplitUp<CR>', { silent = true })
-vim.api.nvim_set_keymap('n', '<leader>l', ':FocusSplitRight<CR>', { silent = true })
+vim.api.nvim_set_keymap('n', '<leader>wh', ':FocusSplitLeft<CR>', { silent = true })
+vim.api.nvim_set_keymap('n', '<leader>wj', ':FocusSplitDown<CR>', { silent = true })
+vim.api.nvim_set_keymap('n', '<leader>wk', ':FocusSplitUp<CR>', { silent = true })
+vim.api.nvim_set_keymap('n', '<leader>wl', ':FocusSplitRight<CR>', { silent = true })
