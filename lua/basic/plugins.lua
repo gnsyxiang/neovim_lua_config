@@ -101,6 +101,14 @@ use {
     end
 }
 
+-- 快速跳转
+use {
+    "phaazon/hop.nvim",
+    config = function()
+        require("conf.hop")
+    end
+}
+
             -- 安装其它插件
         end,
 
