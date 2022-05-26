@@ -12,12 +12,5 @@ vim.keybinds = {
 
 -- 插入模下 jk 退出插入模式
 vim.keybinds.gmap("i", "jk", "<Esc>", vim.keybinds.opts)
+vim.keybinds.gmap("n", ";", ":", vim.keybinds.opts)
 
--- 是否显示绝对行号
-vim.o.number = true
--- 是否显示相对行号
-vim.o.relativenumber = true
-
-
--- 是否开启 xterm 兼容的终端 24 位色彩支持
-vim.o.termguicolors = true
