@@ -109,6 +109,14 @@ use {
     end
 }
 
+-- 包裹修改
+use {
+    "ur4ltz/surround.nvim",
+    config = function()
+        require("conf.surround")
+    end
+}
+
             -- 安装其它插件
         end,
 
