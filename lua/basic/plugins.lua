@@ -46,6 +46,18 @@ packer.startup(
 	    end
 	}
 
+	-- 为了能让状态栏显示 git 信息，所以这个插件是必须的
+use {
+    "lewis6991/gitsigns.nvim",
+    requires = {
+        -- 依赖于该插件（一款 Lua 开发使用的插件）
+        "nvim-lua/plenary.nvim"
+    },
+    config = function()
+        require("conf.gitsigns")
+    end
+}
+
             -- 安装其它插件
         end,
 
