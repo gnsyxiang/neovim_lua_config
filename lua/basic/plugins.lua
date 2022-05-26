@@ -31,6 +31,13 @@ packer.startup(
 	    end
 	}
 
+	use {
+  'nvim-lualine/lualine.nvim',
+  requires = { 'kyazdani42/nvim-web-devicons', opt = true },
+	    config = function()
+	        require("conf.lualine")
+	    end
+}
 
 	use {
 		"morhetz/gruvbox",
