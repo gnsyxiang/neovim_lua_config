@@ -117,6 +117,14 @@ use {
     end
 }
 
+-- 显示光标下相同词汇
+use {
+    "RRethy/vim-illuminate",
+    config = function()
+        require("conf.vim-illuminate")
+    end
+}
+
             -- 安装其它插件
         end,
 
