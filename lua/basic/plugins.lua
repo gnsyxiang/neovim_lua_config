@@ -149,6 +149,13 @@ use {
     end
 }
 
+-- 自动会话管理
+use {
+    "rmagatti/auto-session",
+    config = function()
+        require("conf.auto-session")
+    end
+}
             -- 安装其它插件
         end,
 
