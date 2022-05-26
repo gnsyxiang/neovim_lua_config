@@ -85,6 +85,14 @@ use {
     end
 }
 
+-- 自动匹配括号
+use {
+    "windwp/nvim-autopairs",
+    config = function()
+        require("conf.nvim-autopairs")
+    end
+}
+
             -- 安装其它插件
         end,
 
