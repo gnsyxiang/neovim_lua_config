@@ -93,6 +93,14 @@ use {
     end
 }
 
+-- 快速更改单词
+use {
+    "AndrewRadev/switch.vim",
+    config = function()
+        require("conf.switch")
+    end
+}
+
             -- 安装其它插件
         end,
 
