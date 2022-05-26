@@ -125,6 +125,13 @@ use {
     end
 }
 
+-- 拼写检查器
+use {
+    "lewis6991/spellsitter.nvim",
+    config = function()
+        require("conf.spellsitter")
+    end
+}
             -- 安装其它插件
         end,
 
