@@ -132,6 +132,15 @@ use {
         require("conf.spellsitter")
     end
 }
+
+-- 自动保存
+use {
+    "Pocco81/AutoSave.nvim",
+    config = function()
+        require("conf.AutoSave")
+    end
+}
+
             -- 安装其它插件
         end,
 
