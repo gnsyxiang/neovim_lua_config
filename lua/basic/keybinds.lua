@@ -18,3 +18,6 @@ vim.o.number = true
 -- 是否显示相对行号
 vim.o.relativenumber = true
 
+
+-- 是否开启 xterm 兼容的终端 24 位色彩支持
+vim.o.termguicolors = true

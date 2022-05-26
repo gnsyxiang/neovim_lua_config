@@ -31,6 +31,14 @@ packer.startup(
 	    end
 	}
 
+
+	use {
+		"morhetz/gruvbox",
+	    config = function()
+	        require("conf.gruvbox")
+	    end
+	}
+
             -- 安装其它插件
         end,
 
