@@ -213,6 +213,14 @@ use {
         require("conf.telescope")
     end
 }
+
+-- todo tree
+use {
+    "folke/todo-comments.nvim",
+    config = function()
+        require("conf.todo-comments")
+    end
+}
             -- 安装其它插件
         end,
 
