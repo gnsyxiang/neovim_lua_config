@@ -168,6 +168,14 @@ use {
         require("conf.nvim-spectre")
     end
 }
+
+-- 显示滚动条
+use {
+    "petertriho/nvim-scrollbar",
+    config = function()
+        require("conf.nvim-scrollbar")
+    end
+}
             -- 安装其它插件
         end,
 
