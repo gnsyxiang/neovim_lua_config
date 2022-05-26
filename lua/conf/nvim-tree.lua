@@ -20,7 +20,8 @@ require("nvim-tree").setup(
 vim.g.nvim_tree_add_trailing = 1
 
 -- 打开文件树
-vim.keybinds.gmap("n", "<leader>tt", "<cmd>NvimTreeToggle<CR>", vim.keybinds.opts)
+--vim.keybinds.gmap("n", "<F3>", "<cmd>NvimTreeToggle<CR>", vim.keybinds.opts)
+vim.keybinds.gmap("n", "<leader>to", "<cmd>NvimTreeToggle<CR>", vim.keybinds.opts)
 
 -- 在文件树中找到当前以打开文件的位置
 vim.keybinds.gmap("n", "<leader>fc", "<cmd>NvimTreeFindFile<CR>", vim.keybinds.opts)

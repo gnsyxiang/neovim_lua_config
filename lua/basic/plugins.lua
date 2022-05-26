@@ -176,6 +176,14 @@ use {
         require("conf.nvim-scrollbar")
     end
 }
+
+-- 内置终端
+use {
+    "akinsho/toggleterm.nvim",
+    config = function()
+        require("conf.toggleterm")
+    end
+}
             -- 安装其它插件
         end,
 
