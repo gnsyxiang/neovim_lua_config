@@ -141,6 +141,14 @@ use {
     end
 }
 
+-- 自动恢复光标位置
+use {
+    "ethanholz/nvim-lastplace",
+    config = function()
+        require("conf.nvim-lastplace")
+    end
+}
+
             -- 安装其它插件
         end,
 
