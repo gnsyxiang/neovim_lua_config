@@ -156,6 +156,18 @@ use {
         require("conf.auto-session")
     end
 }
+
+-- 全局替换
+use {
+    "nvim-pack/nvim-spectre",
+    requires = {
+        "nvim-lua/plenary.nvim", -- Lua 开发模块
+        "BurntSushi/ripgrep" -- 文字查找
+    },
+    config = function()
+        require("conf.nvim-spectre")
+    end
+}
             -- 安装其它插件
         end,
 
