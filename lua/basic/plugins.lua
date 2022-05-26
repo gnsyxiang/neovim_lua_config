@@ -192,6 +192,14 @@ use {
         require("conf.undotree")
     end
 }
+
+-- 键位绑定器
+use {
+    "folke/which-key.nvim",
+    config = function()
+        require("conf.which-key")
+    end
+}
             -- 安装其它插件
         end,
 
