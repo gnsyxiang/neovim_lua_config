@@ -69,6 +69,14 @@ use {
     end
 }
 
+-- 搜索时显示条目
+use {
+    "kevinhwang91/nvim-hlslens",
+    config = function()
+        require("conf.nvim-hlslens")
+    end
+}
+
             -- 安装其它插件
         end,
 
