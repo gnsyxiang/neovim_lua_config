@@ -184,6 +184,14 @@ use {
         require("conf.toggleterm")
     end
 }
+
+-- undo tree
+use {
+    "mbbill/undotree",
+    config = function()
+        require("conf.undotree")
+    end
+}
             -- 安装其它插件
         end,
 
