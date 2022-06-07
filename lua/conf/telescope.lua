@@ -4,10 +4,7 @@
 -- https://github.com/sharkdp/fd
 -- https://github.com/BurntSushi/ripgrep
 
-require("telescope").setup(
-{
-}
-)
+require("telescope").setup({})
 
 -- 查找文件
 vim.keybinds.gmap("n", "<leader>ff", "<cmd>Telescope find_files theme=dropdown<CR>", vim.keybinds.opts)
@@ -26,4 +23,3 @@ vim.keybinds.gmap("n", "<leader>fo", "<cmd>Telescope oldfiles theme=dropdown<CR>
 
 -- 查找 marks 标记
 vim.keybinds.gmap("n", "<leader>fm", "<cmd>Telescope marks theme=dropdown<CR>", vim.keybinds.opts)
-

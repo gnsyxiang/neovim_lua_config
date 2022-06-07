@@ -1,16 +1,16 @@
 -- https://github.com/kyazdani42/nvim-tree.lua
 
 require("nvim-tree").setup(
-	{
-	-- 视图
+    {
+        -- 视图
         view = {
             width = 30,
             height = 30,
             hide_root_folder = false,
             auto_resize = true,
-	    side = "right",
+            side = "right"
         }
-	}
+    }
 )
 
 -- 目录后加上反斜杠 /

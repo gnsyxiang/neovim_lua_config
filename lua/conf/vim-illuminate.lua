@@ -8,4 +8,3 @@ vim.g.Illuminate_ftblacklist = {
     "vista_kind",
     "toggleterm"
 }
-

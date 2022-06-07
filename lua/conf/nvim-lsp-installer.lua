@@ -13,7 +13,7 @@ capabilities = require("cmp_nvim_lsp").update_capabilities(capabilities)
 local servers = {
     -- 语言服务器名称：配置选项
     sumneko_lua = require("lsp.sumneko_lua"),
-    pyright = require("lsp.pyright"),
+    pyright = require("lsp.pyright")
     -- tsserver = require("lsp.tsserver"),
     -- html = require("lsp.html"),
     -- cssls = require("lsp.cssls"),
@@ -74,8 +74,8 @@ for server_name, server_options in pairs(servers) do
                 server_options.flags = {
                     debounce_text_changes = 150
                 }
-		-- 代替内置 omnifunc
-		server_options.capabilities = capabilities
+                -- 代替内置 omnifunc
+                server_options.capabilities = capabilities
                 -- 启动服务
                 server:setup(server_options)
             end
@@ -87,4 +87,3 @@ for server_name, server_options in pairs(servers) do
         end
     end
 end
-
