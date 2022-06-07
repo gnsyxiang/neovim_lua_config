@@ -345,6 +345,14 @@ use {
         require("conf.Comment")
     end
 }
+
+-- 代码格式化
+use {
+    "sbdchd/neoformat",
+    config = function()
+        require("conf.neoformat")
+    end
+}
             -- 安装其它插件
         end,
 
