@@ -322,6 +322,18 @@ use {
         require("conf.nvim-lint")
     end
 }
+
+-- 语法高亮
+use {
+    "nvim-treesitter/nvim-treesitter",
+    run = {":TSupdate"},
+    requires = {
+        "p00f/nvim-ts-rainbow" -- 彩虹括号
+    },
+    config = function()
+        require("conf.nvim-treesitter")
+    end
+}
             -- 安装其它插件
         end,
 
