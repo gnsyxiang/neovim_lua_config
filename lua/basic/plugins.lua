@@ -277,6 +277,14 @@ use {
         require("conf.lsp_signature")
     end
 }
+
+-- 灯泡提示代码行为
+use {
+    "kosayoda/nvim-lightbulb",
+    config = function()
+        require("conf.nvim-lightbulb")
+    end
+}
             -- 安装其它插件
         end,
 
