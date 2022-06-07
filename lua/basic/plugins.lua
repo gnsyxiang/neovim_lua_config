@@ -314,6 +314,14 @@ use {
         require("conf.copilot")
     end
 }
+
+-- 扩展 LSP 诊断
+use {
+    "mfussenegger/nvim-lint",
+    config = function()
+        require("conf.nvim-lint")
+    end
+}
             -- 安装其它插件
         end,
 
