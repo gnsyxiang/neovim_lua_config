@@ -245,6 +245,14 @@ use {
         require("conf.lspsaga")
     end
 }
+
+-- LSP 进度提示
+use {
+    "j-hui/fidget.nvim",
+    config = function()
+        require("conf.fidget")
+    end
+}
             -- 安装其它插件
         end,
 
