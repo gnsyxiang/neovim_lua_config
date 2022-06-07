@@ -269,6 +269,14 @@ use {
         require("conf.fidget")
     end
 }
+
+-- 插入模式获得函数签名
+use {
+    "ray-x/lsp_signature.nvim",
+    config = function()
+        require("conf.lsp_signature")
+    end
+}
             -- 安装其它插件
         end,
 
