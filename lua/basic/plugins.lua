@@ -222,6 +222,14 @@ use {
     end
 }
 
+-- 精美弹窗
+use {
+    "rcarriga/nvim-notify",
+    config = function()
+        require("conf.nvim-notify")
+    end
+}
+
 -- todo tree
 use {
     "folke/todo-comments.nvim",
