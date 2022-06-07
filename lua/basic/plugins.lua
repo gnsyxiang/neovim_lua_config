@@ -353,6 +353,7 @@ packer.startup(
                     require("conf.neoformat")
                 end
             }
+
             -- 为不支持 LSP 高亮的主题提供默认高亮方案
             use {
                 "folke/lsp-colors.nvim",
@@ -361,7 +362,13 @@ packer.startup(
                 end
             }
 
-            -- 安装其它插件
+            -- view tree
+            use {
+                "liuchengxu/vista.vim",
+                config = function()
+                    require("conf.vista")
+                end
+            } -- 安装其它插件
         end,
         -- 使用浮动窗口
         config = {
