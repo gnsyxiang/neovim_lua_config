@@ -306,6 +306,14 @@ use {
         require("conf.nvim-cmp")
     end
 }
+
+-- git copilot 自动补全
+use {
+    "github/copilot.vim",
+    config = function()
+        require("conf.copilot")
+    end
+}
             -- 安装其它插件
         end,
 
