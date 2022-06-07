@@ -8,6 +8,7 @@ local lsp_installer_servers = require("nvim-lsp-installer.servers")
 
 local servers = {
     -- 语言服务器名称：配置选项
+    sumneko_lua = require("lsp.sumneko_lua"),
     -- pyright = require("lsp.pyright"),
     -- tsserver = require("lsp.tsserver"),
     -- html = require("lsp.html"),
