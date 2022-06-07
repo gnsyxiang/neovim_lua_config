@@ -169,6 +169,14 @@ use {
     end
 }
 
+-- 多光标模式
+use {
+    "terryma/vim-multiple-cursors",
+    config = function()
+        require("conf.vim-multiple-cursors")
+    end
+}
+
 -- 显示滚动条
 use {
     "petertriho/nvim-scrollbar",
